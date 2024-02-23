@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+
+.nav-container {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    background-color: #f56464;
+    margin: 0px;
+    justify-content: space-around;
+    font-weight: bold;
+    align-items: center;
+}
+
+
+.nav-image {
+    align-self: flex-end;
+}
+
+.menu-icon {
+    width: 20px;
+    cursor: pointer;
+    align-self: flex-start;
+}
+
+.top-container {
+    background-image: linear-gradient(to right, #f7e9a8, #f58cee);
+    display: flex;
+}
+
+.top-text-container {
+    width: 50%;
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.top-section-heading {
+    font-size: 40px;
+    width: 100%;
+    letter-spacing: 5px;
+}
+
+.top-section-desc {
+    font-size: 13px;
+    line-height: 1.5;
+}
+
+.click-me-button {
+    width: 40%;
+    background-color: #f56464;
+    color: #ffffff;
+    border: 0;
+    outline: none;
+    padding: 8px 0px;
+    font-size: 12px;
+    font-family: "candara light";
+}
+
+.top-image-container {
+    width: 50%;
+}
+
+.top-image {
+    width: 100%;
+    height: 100%;
+}
+
+.bottom-section-container {
+    background-image: linear-gradient(to right, #f7e9a8, #f58cee);
+    padding: 5%;
+    display: flex;
+    align-items: center;
+    width: 90%;
+    justify-content: space-between;
+}
+
+.bottom-image-container {
+    width: 50%;
+    display: flex;
+}
+
+.bottom-two-images {
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+}
+
+.short-image {
+    width: 100%;
+    margin-bottom: 10px;
+    height: 200px;
+}
+
+.food-image {
+    width: 50%;
+}
+
+.bottom-text-container {
+    background-color: #f56464;
+    padding: 5%;
+    width: 30%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.bottom-small-text {
+    margin-bottom: 10px;
+    font-size: 10px;
+}
+
+.bottom-heading {
+    font-size: 30px;
+    margin-bottom: 10px;
+    letter-spacing: 3px;
+}
+
+.arrow-container {
+    display: flex;
+    align-items: center;
+}
+
+.click-text {
+    font-size: 10px;
+}
+
+.arrow-icon {
+    width: 20px;
+    margin-left: 5px;
+}
+
+@media screen and (max-width: 576px) {
+    .nav-container {
+        flex-direction: column;
+    }
+
+    .nav-item {
+        display: none;
+    }
+
+    .top-container {
+        flex-direction: column;
+    }
+
+    .top-text-container {
+        width: 90%;
+        order: 2;
+    }
+
+    .top-section-heading {
+        margin-bottom: 10px;
+    }
+
+    .top-section-desc {
+        margin-bottom: 20px;
+    }
+
+    .top-image-container {
+        width: 100%;
+        order: 1;
+    }
+
+    .nav-image {
+        align-content: flex-end;
+    }
+
+
+    .bottom-section-container {
+        flex-direction: column;
+    }
+
+    .bottom-image-container {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .short-image {
+        width: 100%;
+    }
+
+    .bottom-text-container {
+        width: 90%;
+        margin-top: 20px;
+    }
+}
